@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rr.pho</groupId>
-    <artifactId>PHO1</artifactId>
+    <artifactId>GPUOperations</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
