@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
-public class Vernem {
+public class Vernam {
     @Getter @Setter
     private String key;
 
