@@ -33,12 +33,12 @@ public class MainApp {
         String textForEncryption = scanner.nextLine();
         LOGGER.debug("");
 
-        Vernem vernem = new Vernem(key);
+        Vernam vernam = new Vernam(key);
 
         Instant start2 = Instant.now();
-        String encryptedText = vernem.encryptText(textForEncryption);
+        String encryptedText = vernam.encryptText(textForEncryption);
         LOGGER.info("Encrypted message: " + encryptedText);
-        String decryptedText = vernem.decryptText(encryptedText);
+        String decryptedText = vernam.decryptText(encryptedText);
         LOGGER.info("Decrypted message: " + decryptedText);
 
         if (!textForEncryption.equals(decryptedText)) {
